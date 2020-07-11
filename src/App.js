@@ -16,7 +16,7 @@ const App =()=>{
       })
       .then((res) => setCompanies(res.items))
       // .catch((e) => rollbar.error(`couldn't get from contentful1: ${e}`))
-  })
+  },[])
   return(
     <BrowserRouter>
       <Switch>
