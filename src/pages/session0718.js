@@ -5,6 +5,7 @@ import Companies0529 from "../components/Companies0529"
 import topImage from "../assets/images/topImage.png"
 import "../css/session0718.css";
 import Footer from '../components/Footer'
+import arrow from '../assets/images/arrow.png'
 
 const Session0614 = (props) => {
   return (
@@ -84,7 +85,7 @@ const Session0614 = (props) => {
         </p>
 
         <Header title="当日のスケジュール" name="peach-header3" />
-        {/* <p className="contents">
+        <p className="contents">
           ・各タームの10分前に指定のURLをクリックしてください。
           <br />
           ・当日は各ルームに司会がおりますので司会の指示に従ってください。
@@ -98,44 +99,37 @@ const Session0614 = (props) => {
               <th className="centerTitle0614-2">ルーム1</th>
               <th className="centerTitle0614-2">ルーム2</th>
               <th className="centerTitle0614-2">ルーム3</th>
-              <th className="centerTitle0614-2">ルーム4</th>
-              <th className="centerTitle0614-2">ルーム5</th>
-              <th className="centerTitle0614-2">ルーム6</th>
-              <th className="centerTitle0614-2">ルーム7</th>
             </tr>
             <tr>
-              <td className="center time">10:00~10:20</td>
+              <td className="center time">9:30~10:00</td>
               <td className="center compSession0614-1">準備</td>
-              <td className="center compSession0614-2" colSpan="7">
+              <td className="center compSession0614-2" colSpan="3">
                 OPEN・準備(各ルーム・待機室)
               </td>
             </tr>
 
             <tr>
-              <td className="center time">10:20〜10:30</td>
+              <td className="center time">10:00〜10:30</td>
               <td className="center compSession0614-1">全体説明</td>
-              <td className="center compSession0614-2" colSpan="7">
-                全体説明
+              <td className="center compSession0614-2" colSpan="3">
+                就活セミナー(メインルーム)
               </td>
             </tr>
             <tr>
               <td className="center time">10:30〜11:00</td>
               <td className="center compSession0614-1">第1ターン</td>
               <td className="center compSession0614-2">
-                機械開発北旺
+                キットアライブ(IT/システム開発)
               </td>
-              <td className="center compSession0614-2">ネイビーズ・クリエイション</td>
+              <td className="center compSession0614-2">道東あさひ農業協同組合(農協)</td>
               <td className="center compSession0614-2">
-                札幌大蔵大学
+                一寸房(建築設計)
               </td>
-              <td className="center compSession0614-2">さくらコミュニティーサービス・悠ライフ</td>
-              <td className="center compSession0614-2">井上技研</td>
-              <td className="center compSession0614-2">永浜クロス</td>
-              <td className="center compSession0614-2">流研</td>
+              
             </tr>
             <tr>
               <td className="center break">15分休憩</td>
-              <td className="center arrow" colSpan="8">
+              <td className="center arrow" colSpan="4">
                 <img src={arrow} alt="arrow"></img>
               </td>
             </tr>
@@ -143,114 +137,75 @@ const Session0614 = (props) => {
               <td className="center time">11:15〜11:45</td>
               <td className="center compSession0614-1">第2ターン</td>
               <td className="center compSession0614-2">
-                機械開発北旺
+                キットアライブ(IT/システム開発)
               </td>
-              <td className="center compSession0614-2">ネイビーズ・クリエイション</td>
+              <td className="center compSession0614-2">井上技研(建築業)</td>
               <td className="center compSession0614-2">
-                札幌大蔵大学
+                一寸房(建築設計)
               </td>
-              <td className="center compSession0614-2">さくらコミュニティーサービス・悠ライフ</td>
-              <td className="center compSession0614-2">井上技研</td>
-              <td className="center compSession0614-2">永浜クロス</td>
-              <td className="center compSession0614-2">流研</td>
             </tr>
+            <tr>
+              <td className="center break">15分休憩</td>
+              <td className="center arrow" colSpan="4">
+                <img src={arrow} alt="arrow"></img>
+              </td>
+            </tr>
+            <tr>
+              <td className="center time">12:00〜12:30</td>
+              <td className="center compSession0614-1">第3ターン</td>
+              <td className="center compSession0614-2">
+                北海道新聞社(マスコミ(新聞))
+              </td>
+              <td className="center compSession0614-2">井上技研(建築業)</td>
+              <td className="center compSession0614-2">
+                道東あさひ農業協同組合(農協)
+              </td>
+            </tr>
+
             <tr>
               <td className="center break">お昼休憩</td>
-              <td className="center arrow" colSpan="8">
-                <img src={arrow} alt="arrow"></img>
-              </td>
-            </tr>
-            <tr>
-              <td className="center time">13:00〜13:30</td>
-              <td className="center compSession0614-1">第1ターン</td>
-              <td className="center compSession0614-2">
-                ソフテック
-              </td>
-              <td className="center compSession0614-2">
-                タカフジ
-              </td>
-              <td className="center compSession0614-2">クレタ</td>
-              <td className="center compSession0614-2">トーホーエンジニアリング</td>
-              <td className="center compSession0614-2">リズム学園</td>
-              <td className="center compSession0614-2">ビックボイス</td>
-              <td className="center compSession0614-2"></td>
-            </tr>   
 
-            <tr>
-              <td className="center break">15分休憩</td>
-
-              <td className="center arrow" colSpan="8">
+              <td className="center arrow" colSpan="4">
                 <img src={arrow} alt="arrow"></img>
               </td>
             </tr>
             
             <tr>
-              <td className="center time">13:45〜14:15</td>             
-              <td className="center compSession0614-1">第2ターン</td>
+              <td className="center time">13:20〜13:50</td>             
+              <td className="center compSession0614-1">第4ターン</td>
               <td className="center compSession0614-2">
-                ソフテック
+                北海道新聞社(マスコミ(新聞))
               </td>
               <td className="center compSession0614-2">
-                タカフジ
+                三ッ輪商会(卸売業・小売業)
               </td>
-              <td className="center compSession0614-2">クレタ</td>
-              <td className="center compSession0614-2">トーホーエンジニアリング</td>
-              <td className="center compSession0614-2">リズム学園</td>
-              <td className="center compSession0614-2">ビックボイス</td>
-              <td className="center compSession0614-2"></td>
+              <td className="center compSession0614-2">イオン北海道(総合小売業)</td>
             </tr>   
             
             <tr>
               <td className="center break">15分休憩</td>
 
-              <td className="center arrow" colSpan="8">
+              <td className="center arrow" colSpan="4">
                 <img src={arrow} alt="arrow"></img>
               </td>
             </tr>
             
             <tr>
-              <td className="center time">14:30〜15:00</td>
-              <td className="center compSession0614-1">第1ターン</td>
+              <td className="center time">14:05〜14:35</td>
+              <td className="center compSession0614-1">第5ターン</td>
               <td className="center compSession0614-2">
-                日精機工
+                -
               </td>
-              <td className="center compSession0614-2">内池建設</td>
+              <td className="center compSession0614-2">三ッ輪商会(卸売業・小売業)</td>
               <td className="center compSession0614-2">
-                石狩友愛福祉会
-              </td>
-              <td className="center compSession0614-2">コクサク</td>
-              <td className="center compSession0614-2">よねざわ工業</td>
-              <td className="center compSession0614-2">エル技術コンサルタント</td>
-              <td className="center compSession0614-2"></td>
-            </tr>
-            <tr>
-              <td className="center break">15分休憩</td>
-
-              <td className="center arrow" colSpan="8">
-                <img src={arrow} alt="arrow"></img>
+                イオン北海道(総合小売業)
               </td>
             </tr>
-            <tr>
-              <td className="center time">15:15〜15:45</td>
-              <td className="center compSession0614-1">第2ターン</td>
-              <td className="center compSession0614-2">
-                日精機工
-              </td>
-              <td className="center compSession0614-2">内池建設</td>
-              <td className="center compSession0614-2">
-                石狩友愛福祉会
-              </td>
-              <td className="center compSession0614-2">コクサク</td>
-              <td className="center compSession0614-2">よねざわ工業</td>
-              <td className="center compSession0614-2">エル技術コンサルタント</td>
-              <td className="center compSession0614-2"></td>
-            </tr>
+            
 
           </tbody>
-        </table>  */}
-        <p className="contents">
-          調整中です。
-        </p>
+        </table> 
+        
 
         <Header title="出展予定企業(随時追加)" name="peach-header3" />
         <Companies0529 data={props.data} /> 
